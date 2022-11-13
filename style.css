@@ -9,24 +9,36 @@
 
 body {
   font-size: 100%;
-  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+  background: linear-gradient(68.15deg, #03017e 16.62%, #82adfd 85.61%);
 }
 
 .cabecalho {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-around;
   padding: 24px;
 }
 
+.coluna-header-1 {
+  flex: 50%;
+}
+
+.coluna-header-2 {
+  flex: 50%;
+}
 .cabecalho-imagem {
+  display: flex;
+  gap: 50px;
   height: 72px;
+  padding-left: 100px;
 }
 
 .cabecalho-menu {
   display: flex;
-  gap: 32px;
+  gap: 50px;
+  height: 72px;
+  justify-content: right;
+  padding: 2px;
 }
 
 .cabecalho-menu-item {
@@ -66,6 +78,15 @@ body {
   font-weight: 400;
   font-size: 24px;
   color: #ECD6C4;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: space-around;
+  padding: 24px;
+  width: 800px;
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
 }
 
 .conteudo-principal-escrito-botao {
